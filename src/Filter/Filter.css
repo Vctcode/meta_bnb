@@ -1,0 +1,99 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0 60px;
+}
+
+.filter-item {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+  margin-right: 30px;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  /* width: 10%; */
+  padding: 14px;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+}
+
+.filter-button img {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .filter-item {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        width: 90%;
+        font-size: 17px;
+        line-height: 25px;
+        color: #434343;
+        margin-right: 30px;
+      }
+
+      .filter-item .f-item::after {
+        content: "|";
+        padding: 10px;
+      }
+}
+
+@media screen and (max-width: 769px) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 4px;
+    margin: 30px 0 20px;
+  }
+
+  .filter-item {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    width: 90%;
+    font-size: 16px;
+    line-height: 25px;
+    color: #434343;
+    margin-right: 30px;
+  }
+
+  .filter-item .f-item {
+    justify-self: flex-start;
+    
+  }
+
+  .filter-item .f-item::after {
+    content: "|";
+    padding: 10px;
+  }
+
+  .filter-button {
+    display: flex;
+    align-items: center;
+    /* width: 10%; */
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .filter-button img {
+    width: 18px;
+    margin-left: 20px;
+  }
+}
