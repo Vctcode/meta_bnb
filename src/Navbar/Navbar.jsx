@@ -55,7 +55,7 @@ export default function Navbar() {
             <a className="nav-btn" onClick={togglePopup}>Connect wallet</a>
 
 
-            {!menu && <div className="mobile">
+            {menu && <div className="mobile">
                 <ul className="nav-list">
                     <li>
                         <Link to="/">Home</Link>
