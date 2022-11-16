@@ -1,5 +1,5 @@
 .connect-wallet {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -79,7 +79,7 @@
 
 @media screen and (max-width: 600px) {  
   .connect-wallet {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
