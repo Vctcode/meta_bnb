@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 99px; */
-  /* height: 459px; */
   margin: 5rem;
 }
 
@@ -246,7 +244,6 @@
     width: 100%;
     justify-content: space-between;
     gap: 1.5rem;
-    /* order: 2; */
   }
   
   .header-text h1 {
@@ -293,9 +290,9 @@
   }
   
   .header-box {
-    display: none;
-      width: 100%;
-      order: 1;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: center;
   }
   
   .header-imgs img {
