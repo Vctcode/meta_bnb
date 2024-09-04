@@ -3,7 +3,7 @@
 - Places page: displays all available cards
 - Modal: Allows you to connect to your Metamask and WalletConnect.
 
-[Click here to view live site](https://vic-meta-bnb.netlify.app/)
+[Click here to view live site](https://vic-meta-bnb.vercel.app/)
 
 ## Screenshots from the live server
 ### The Home page
