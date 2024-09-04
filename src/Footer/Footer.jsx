@@ -7,7 +7,10 @@ import Instagram from "../assets/instag.png"
 import Facebook from "../assets/facebook.png"
 
 
+
 export default function Footer() {
+  const year = new Date().getFullYear();
+        
     return (
         <div className="footer">
             <div className="footer-ctn">
@@ -51,7 +54,7 @@ export default function Footer() {
                 </div>
             </div>
 
-          <div className="copyright">&copy; 2022 Metabnb</div>
+          <div className="copyright">&copy; {year} Metabnb</div>
         </div>
     )
 }
